@@ -5,6 +5,9 @@
   "repository": "git@github.com:ArseniumGX/crud-sequelize.git",
   "author": "Jose Pereira Macedo <arseniumgx@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --clear --transpile-only src/server.ts"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
